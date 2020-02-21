@@ -1,4 +1,4 @@
-# FFMPEG
+# HW4: Learning Processes & Threads
 
 ## Task 1
 Using the twitter feed, construct a daily video summarizing a twitter handle day <br/>
