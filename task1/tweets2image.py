@@ -36,9 +36,3 @@ for tweet in search_results:
 	image.save(filename)
 
 print("Insert Completed")
-
-
-
-
-
-
