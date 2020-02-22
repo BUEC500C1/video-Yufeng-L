@@ -1,25 +1,10 @@
 # Convert images grabbed from twitter to video
-# Using cv2 from opencv to create video
 import os
-import cv2
-import numpy as np
+import subprocess
 
-path = 'tweets/'
-filelist = os.listdir(path)
-
-fps = 1/3 
-size = (600, 200) 
-
-output_file = 'tweets.avi'
-
-video = cv2.VideoWriter(output_file, cv2.VideoWriter_fourcc(*'MPEG'), fps, size)
-
-for item in filelist:
-    if item.endswith('.png'): 
-        item = path + item
-        img = cv2.imread(item)
-        video.write(img)
-
-cv2.destroyAllWindows()
-video.release()
-
+os.chdir('tweets/')
+# -r is the framerate (fps)
+# -crf is the quality, lower means better quality, 15-25 is usually good
+# -s is the resolution
+# -pix_fmt yuv420p specifies the pixel format, change this as needed
+subprocess.call(['ffmpeg','-r','1/3','-f', 'image2','-s','1920x1080','-i', 'img%d.png', '-vcodec','libx264','-crf','25', '-pix_fmt','yuv420p','out.mp4'])
