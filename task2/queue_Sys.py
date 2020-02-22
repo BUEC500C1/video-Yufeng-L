@@ -6,7 +6,7 @@ import threading
 import multiprocessing
 
 keyNames = ['BU_ece','realDonaldTrump','CNN','ArianaGrande','PrimeVideo','PDChina','nytimes','justinbieber','BillGates']
-threads = 4
+threads = 12
 
 def worker():
   count = 0
