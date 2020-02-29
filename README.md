@@ -22,5 +22,30 @@ Develop the twitter functionality with an API
 ### Step 3:
 Integrate them
 Include tracking interface to show how many processes are going on and success of each
+### Test
+- create a folder named "tweets" to hold all the tweets.
+- Run the file ```queue_sys.py```
+```
+python queue_sys.py
+```
+<p align="middle">
+  ![terminal](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/result.png)
+</p>
+### Videos Created 
+<p align="middle">
+  Since those videos are large, (rejected by Github, here is the screenshot after running queue)
+</p>
+![videocreated](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/videoscreated.png)
+###  Images Grabbed
+<p align="middle">
+  In tweets folder in task2, sample images grabbed are shown.
+</p>
+![images](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/imagesgrabbed.png)
+
+### CPU Usage when calling multiple APIs
+![cpuuse](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/callingapi.png)
+
+
+
 
 
