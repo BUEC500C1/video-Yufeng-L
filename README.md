@@ -24,9 +24,9 @@ Integrate them
 Include tracking interface to show how many processes are going on and success of each
 ### Test
 - create a folder named "tweets" to hold all the tweets.
-- Run the file ```queue_sys.py```
+- Run the file ```queue_Sys.py```
 ```
-python queue_sys.py
+python queue_ys.py
 ```
 ![terminal](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/result.png)
 ### Videos Created 
