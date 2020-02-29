@@ -41,6 +41,8 @@ python queue_sys.py
 
 ### CPU Usage when calling multiple APIs
 ![cpuuse](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/callingapi.png)
+### CPU Usage in Normal State
+![cpuuse2](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task0/normalcpu.png)
 
 
 
