@@ -28,18 +28,15 @@ Include tracking interface to show how many processes are going on and success o
 ```
 python queue_sys.py
 ```
-<p align="middle">
-  ![terminal](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/result.png)
-</p>
+![terminal](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/result.png)
 ### Videos Created 
-<p align="middle">
-  Since those videos are large, (rejected by Github, here is the screenshot after running queue)
-</p>
+- Since those videos are large, (rejected by Github, here is the screenshot after running queue)
+
 ![videocreated](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/videoscreated.png)
 ###  Images Grabbed
-<p align="middle">
-  In tweets folder in task2, sample images grabbed are shown.
-</p>
+
+- In tweets folder in task2, sample images grabbed are shown.
+
 ![images](https://github.com/BUEC500C1/video-Yufeng-L/blob/master/task2/imagesgrabbed.png)
 
 ### CPU Usage when calling multiple APIs
